@@ -119,8 +119,7 @@ body {
 }
 /* STEP 1 */
 .step-1 {
-  display: none;
-  /*display: flex;*/
+  display: flex;
   width: 90%;
 }
 .step-1 form {
@@ -217,7 +216,7 @@ form .error {
 }
 /* STEP 3 */
 .step-3 {
-  /*display: none;*/
+  display: none;
   width: 80%;
 }
 .step-3 form {
@@ -397,7 +396,7 @@ input:checked + .slider:before {
     top: 0;
     left: 0;
     right: 0;
-    background-image: url("./assets/images/bg-sidebar-mobile.svg");
+    background-image: url(./assets/images/bg-sidebar-mobile.svg);
     flex-direction: row;
     height: 300px;
     background-size: cover;
@@ -405,6 +404,9 @@ input:checked + .slider:before {
     align-items: flex-start;
     justify-content: center;
     z-index: -1;
+  }
+  .sidebar {
+    background-image: url("./assets/images/bg-sidebar-mobile.svg");
   }
   .step-content {
     display: none;
