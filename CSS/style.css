@@ -396,8 +396,12 @@ input:checked + .slider:before {
     top: 0;
     left: 0;
     right: 0;
+<<<<<<< HEAD
     background-image: url("./assets/images/bg-sidebar-mobile.svg");
 
+=======
+    background-image: url(./assets/images/bg-sidebar-mobile.svg);
+>>>>>>> f3e5ebf112587c7b311fd8564f17746e7f9ce6c3
     flex-direction: row;
     height: 300px;
     background-size: cover;
@@ -405,6 +409,9 @@ input:checked + .slider:before {
     align-items: flex-start;
     justify-content: center;
     z-index: 99;
+  }
+  .sidebar {
+    background-image: url("./assets/images/bg-sidebar-mobile.svg");
   }
   .sidebar {
     background-image: url("./assets/images/bg-sidebar-mobile.svg");
